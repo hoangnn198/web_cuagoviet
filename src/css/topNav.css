@@ -1,0 +1,63 @@
+.topNav{
+  background-color: turquoise;
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  padding: 10px 10px;
+}
+
+.ic_menu{
+    height: 35px;
+    width: 35px;
+}
+
+.menu{
+    background-color: dodgerblue;
+    height: 100vh;
+    width: 30%;
+    position: fixed;
+}
+.logo{
+    background-color: darksalmon;
+    height: 100%;
+    width: 200px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ic_search{
+    height: 40px;
+    width: 40px;
+}
+.search{
+    background-color: darksalmon;
+    height: 80px;
+    width: 95%;
+    position: fixed;
+}
+@media screen and (max-width: 600px) {
+    .topNav{
+        background-color: turquoise;
+        height: 80px;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+        padding: 5px 5px;
+        }
+        .menu{
+            background-color: dodgerblue;
+            height: 100vh;
+            width: 80%;
+            position: fixed;
+        }
+        .search{
+            background-color: darkseagreen;
+            height: 70px;
+            width: 85%;
+            position: fixed;
+        }
+  }
