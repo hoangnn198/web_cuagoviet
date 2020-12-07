@@ -1,11 +1,10 @@
-.slider{
-    background-color: red;
-    height: 70vh;
-    width: 100%;
-  }
+.imgView{
+  height: 70vh;
+  width: 100%;
+}
   @media screen and (max-width: 600px) {
    
-    .slider{
+    .imgView{
       background-color: grey;
       height: 200px;
       width: 100%;

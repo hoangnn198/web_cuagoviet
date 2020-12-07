@@ -18,7 +18,8 @@
     background-color: dodgerblue;
     height: 100vh;
     width: 25%;
-    position: fixed;
+    position: absolute;
+    display: flex;
     z-index: 999999;
 }
 .logo{
