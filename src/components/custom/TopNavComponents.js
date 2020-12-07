@@ -28,7 +28,7 @@ function TopNavComponents() {
                     </div>}
             </div>
             {checkMenu ?
-                <div style={{ background: 'rgba(0, 0, 0, 0.3)', width: '100%', height: '100vh', position: 'fixed' }}>
+                <div style={{ background: 'rgba(0, 0, 0, 0.6)', width: '100%', height: '100vh', position: 'fixed' }}>
                     <div className="menu" ></div>
 
                 </div>

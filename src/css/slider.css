@@ -1,21 +1,14 @@
 .slider{
-    background-color: gray;
+    background-color: red;
     height: 70vh;
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
-}
-
-
-@media screen and (max-width: 600px) {
+  }
+  @media screen and (max-width: 600px) {
+   
     .slider{
-        background-color: gray;
-        height: 250px;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center
+      background-color: grey;
+      height: 200px;
+      width: 100%;
     }
+  
   }

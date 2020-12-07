@@ -2,6 +2,8 @@
 import './App.css';
 import TopNav from "./components/custom/TopNavComponents";
 import Slider from "./components/custom/SliderComponents";
+import backgr1 from "./res/image/backgr1.jpg";
+
 function App() {
   return (
     <div className="App">
@@ -14,7 +16,6 @@ function App() {
       <div className="hideHeader" />
 
       <div className="body">
-
         <div >
           <Slider />
         </div>

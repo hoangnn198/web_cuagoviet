@@ -1,4 +1,6 @@
-
+.App{
+  position: relative;
+}
 .hideHeader{
   height: 110px;
   width: 100%;
@@ -7,6 +9,7 @@
 .body{
   background-color: violet;
   height: 1000px;
+  padding: 10 10;
 }
 
 
