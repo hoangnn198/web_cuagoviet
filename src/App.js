@@ -46,7 +46,7 @@ const App = () => {
         <div className="products">
           {/* <h4 style={{ marginTop: 20, textAlign: 'center' }}>PRODUCTS</h4> */}
 
-          <div style={{ backgroundColor: 'cadetblue', height: 200, width: '100%', display: 'flex', flexDirection: 'row', flexWrap: 'wrap' }}>
+          <div style={{ backgroundColor: 'cadetblue', height: 200, width: '100%', display: 'flex', flexDirection: 'row', flexWrap: 'wrap', marginTop: 10 }}>
             <div class="col-6  col-xl-3" style={{ height: '200px', backgroundColor: 'red', }}>
               1 of 2
            </div>
